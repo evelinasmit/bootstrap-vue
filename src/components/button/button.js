@@ -24,7 +24,6 @@ export const props = makePropsConfigurable(
     disabled: makeProp(PROP_TYPE_BOOLEAN, false),
     pill: makeProp(PROP_TYPE_BOOLEAN, false),
     // Tri-state: `true`, `false` or `null`
-    // => On, off, not a toggle
     pressed: makeProp(PROP_TYPE_BOOLEAN, null),
     size: makeProp(PROP_TYPE_STRING),
     squared: makeProp(PROP_TYPE_BOOLEAN, false),
