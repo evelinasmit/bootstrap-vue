@@ -11,8 +11,6 @@ import { makeProp, makePropsConfigurable, pluckProps } from '../../utils/props'
 import { isLink as isLinkStrict } from '../../utils/router'
 import { BLink, props as BLinkProps } from '../link/link'
 
-// --- Props ---
-
 const linkProps = omit(BLinkProps, ['event', 'routerTag'])
 delete linkProps.href.default
 delete linkProps.to.default
