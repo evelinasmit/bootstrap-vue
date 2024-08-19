@@ -19,8 +19,6 @@ import { BIconPersonFill } from '../../icons/icons'
 import { BButton } from '../button/button'
 import { BLink, props as BLinkProps } from '../link/link'
 
-// --- Constants ---
-
 const CLASS_NAME = 'b-avatar'
 
 const SIZES = ['sm', null, 'lg']
@@ -63,8 +61,6 @@ export const props = makePropsConfigurable(
   }),
   NAME_AVATAR
 )
-
-// --- Main component ---
 
 // @vue/component
 export const BAvatar = /*#__PURE__*/ Vue.extend({

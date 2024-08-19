@@ -12,8 +12,6 @@ import { makeProp, makePropsConfigurable } from '../../utils/props'
 import { normalizeSlotMixin } from '../../mixins/normalize-slot'
 import { computeSize } from './avatar'
 
-// --- Props ---
-
 export const props = makePropsConfigurable(
   {
     overlap: makeProp(PROP_TYPE_NUMBER_STRING, 0.3),

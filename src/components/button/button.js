@@ -35,8 +35,6 @@ export const props = makePropsConfigurable(
   NAME_BUTTON
 )
 
-// --- Helper methods ---
-
 // Focus handler for toggle buttons
 // Needs class of 'focus' when focused
 const handleFocus = event => {
